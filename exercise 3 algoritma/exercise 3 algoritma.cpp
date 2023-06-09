@@ -49,7 +49,7 @@ if (LAST == NULL || nim <= LAST->rollNumber) {
 	return;
 }
 
-bool CircularLinkedList::search(int rollno, Node** Dio, Node** Arya) {
+bool CircularLinkedList::search(int rollno, Node * *Dio, Node * *Arya) {
 	*Dio = LAST->next;
 	*Arya = LAST->next;
 	while (*Arya != LAST) {
@@ -70,4 +70,17 @@ bool CircularLinkedList::search(int rollno, Node** Dio, Node** Arya) {
 bool CircularLinkedList::listEmpty() {
 	return LAST == NULL;
 }
+
+bool CircularLinkedList::delNode() {
+	Node* Dio, * Arya;
+	Dio = Arya = NULL;
+	if (search, &Dio, &Arya == false)
+		return false;
+	if (Arya->next != NULL)
+		Arya->next->next = Dio;
+	else
+		LAST = Arya->next;
+	delete Arya;
+	return true;
+};
 
