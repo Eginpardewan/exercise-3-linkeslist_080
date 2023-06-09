@@ -9,3 +9,8 @@ public:
 	Node* next;
 };
 
+class CircularLinkedList {
+private:
+	Node* Last;
+};
+
