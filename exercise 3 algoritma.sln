@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise 3 algoritma", "exercise 3 algoritma\exercise 3 algoritma.vcxproj", "{BFE9D8BB-5BB3-4313-9FA2-4029E6CEA2FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise 3", "exercise 3\exercise 3.vcxproj", "{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{BFE9D8BB-5BB3-4313-9FA2-4029E6CEA2FF}.Release|x64.Build.0 = Release|x64
 		{BFE9D8BB-5BB3-4313-9FA2-4029E6CEA2FF}.Release|x86.ActiveCfg = Release|Win32
 		{BFE9D8BB-5BB3-4313-9FA2-4029E6CEA2FF}.Release|x86.Build.0 = Release|Win32
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Debug|x64.ActiveCfg = Debug|x64
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Debug|x64.Build.0 = Debug|x64
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Debug|x86.Build.0 = Debug|Win32
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Release|x64.ActiveCfg = Release|x64
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Release|x64.Build.0 = Release|x64
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Release|x86.ActiveCfg = Release|Win32
+		{DB83C04F-1232-4FD4-8D94-27533BC6DC3D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

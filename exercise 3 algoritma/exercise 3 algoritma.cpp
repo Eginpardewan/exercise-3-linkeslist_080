@@ -67,3 +67,7 @@ bool CircularLinkedList::search(int rollno, Node** Dio, Node** Arya) {
 	}
 }
 
+bool CircularLinkedList::listEmpty() {
+	return LAST == NULL;
+}
+
